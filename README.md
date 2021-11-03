@@ -1,1 +1,2 @@
 # words-of-wisdom
+ Words of Wisdom (or WoW) will be a site where users can anonymously post life lessons, advice, as well as stories that taught them those lessons. Advice can be liked and commented on. Users can also choose to recieve a random piece of advice.
