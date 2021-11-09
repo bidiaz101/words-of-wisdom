@@ -12,7 +12,7 @@ function Comment({comments, setComments}) {
         const {comment, user, id} = commentObj
 
         return (
-            <div className="comment">
+            <div className="comment" key={id}>
                 <p>{comment} -<em>{user}</em></p>
                 <button onClick={() => handleDelete(id)}>🗑️</button>
             </div>

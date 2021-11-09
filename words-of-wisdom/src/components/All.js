@@ -14,7 +14,7 @@ function All() {
 
         const commentSection = comments.map(comment => {
             return (
-                <div>
+                <div key={comment.id}>
                     <p>"{comment.comment}" -<em>{comment.user}</em></p>
                 </div>
             )
